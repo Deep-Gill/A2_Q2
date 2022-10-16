@@ -1,7 +1,4 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+#Question 2b
 import matplotlib.pyplot as plt
 import pandas as pd
 import math
@@ -60,10 +57,10 @@ def plotGraphs(y, y_plus_error, y_minus_error):
     # naming the x axis
     plt.xlabel('Number of samples')
     # naming the y axis
-    plt.ylabel('P(R = T | s+, w+)')
+    plt.ylabel('P(R = T | s+, w+) With +/- Error')
 
     # giving a title to my graph
-    plt.title('Q2. (a)')
+    plt.title('Q2. (b)')
 
     # function to show the plot
     plt.show()
